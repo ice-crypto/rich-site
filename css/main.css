@@ -1,2 +1,179 @@
 /* CSS Document */
 
+/*Layout
+--------------------------------------------
+*/
+.text-center{
+	text-align: center;
+}
+/*showcase
+--------------------------------------------
+*/
+.showcase {
+	margin: 0 auto;
+	
+	width: 88%;
+	max-width: 940px;
+}
+.showcase--leftpic .showcase__thumbnails {
+  text-align: left;
+}
+.showcase--rightpic .showcase__thumbnails {
+	text-align: right;
+}
+
+.kv-title {
+	font-size: 4rem;
+	margin-bottom: 10px;
+	letter-spacing: 1px;
+}
+
+.kv-subtitle {
+	font-size: 1.125rem;
+}
+
+.top__bg {
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.top-text {
+	display: block;
+	position: absolute;
+	top:50%;
+	left:0;
+	transform: translateY(-50%);
+	text-align: center;
+	width: 100%;
+	
+	font-weight: 100;
+}
+
+.tabs-menu {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	text-align: center;
+}
+
+.tabs-menu li {
+	display: inline-block;
+	margin-bottom: 12px;
+	opacity: 0.5;
+	
+	transition: all 0.15s;
+}
+.tabs-menu li:not(.active):hohver {
+	opacity: 0.7;
+}
+.tabs-menu .active{
+	opacity: 1;
+}
+.tabs-menu a {
+	display: block;
+	color: #557f95;
+	text-decoration: none;
+}
+.content-title {
+	text-align: center;
+	font-size: 4rem;
+	margin-bottom: 37px;
+}
+
+.puppies__phrase,
+.kittens__phrase,
+.prepare__phrase,
+.gallery__phrase {
+	text-align: center;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 0.5;
+}
+
+
+
+.top__video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-height: 100%;
+  min-width: 100%;
+  transform: translate(-50%, -50%)
+}
+
+.puppies {
+	padding: 82px 0 92px;
+}
+
+.showcase--rightpic .showcase__kind-name {
+	text-align: right;
+}
+
+.prepare__phrase {
+	
+}
+
+.prepare {
+	padding: 82px 0 44px;
+	background-color: #d1edfb;
+}
+
+.card__number,
+.card__icon {
+    font-size: 4rem;
+}
+
+.card {
+	text-align: center;
+	margin-bottom: 3em;
+}
+
+.card__description {
+	margin: 0 auto;
+	
+	font-size: 1.3125rem;
+	width: 80%;
+}
+
+.image-gallery__item {
+	display: inline-block;
+	
+	box-sizing: border-box;
+	
+	width: 192px;
+	height: 192px;
+	
+	border: 21px solid #fff;
+	
+	box-shadow: 4px 4px 6px 1px #ccc;
+	margin: 0 9px 18px;
+	
+	transition: transform 0.1s;
+}
+
+.gallery {
+	padding: 82px 0 92px;
+	background-color: #faf7f0;
+	background-image: linear-gradient(
+	  to bottom right,
+	#f0faf2,
+    #f0faf2 50%,
+    #fcecf5 50%,
+	#fcecf5
+	);
+}
+
+.image-gallery {
+	margin: 0 auto;
+	text-align: center;
+	
+	width: 90%;
+	max-width: 1024px;
+}
+
+footer {
+	padding: 50px 0;
+	background-color: #fafaf3;
+	text-align: center;
+}
